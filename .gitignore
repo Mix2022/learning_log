@@ -1,0 +1,4 @@
+.idea/
+learning_log/__pycache__/
+ll_env/
+db.sqlite3
