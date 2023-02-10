@@ -1,12 +1,6 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <title>Learning Log</title>
-</head>
-<body>
-<h1>Learning Log</h1>
-<p>Learning Log - это приложение, при помощи которого пользователь сможет вести журнал интересующих его тем и
+{% extends "learning_logs/base.html" %}
+
+{% block content %}
+    <p>Learning Log - это приложение, при помощи которого пользователь сможет вести журнал интересующих его тем и
 создавать записи в журнале во время изучения каждой темы.</p>
-</body>
-</html>
+{% endblock content %}
